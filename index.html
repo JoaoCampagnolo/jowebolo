@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>João Campagnolo – Code & Neuroscience</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">JOÃO CAMPAGNOLO</div>
+      <nav class="nav">
+        <a href="#research">Research</a>
+        <a href="#code">Code</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <p class="eyebrow">Neuroscience · Machine Learning · Zebrafish · Odd Experiments</p>
+          <h1 class="hero-title">Stress, circuits & curious side projects.</h1>
+          <p class="hero-subtitle">
+            I’m a neuroscientist and ML enthusiast studying how brains cope with stress,
+            and occasionally running questionable experiments like an energy drink tasting study.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="CV.pdf">Download CV</a>
+            <a class="btn ghost" href="#projects">See projects</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESEARCH -->
+    <section id="research" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Research & Publications</span>
+          <h2>Mapping stress resilience from behavior to brain-wide activity.</h2>
+          <p class="section-intro">
+            I work with larval zebrafish to quantify stress resilience and relate it to whole-brain
+            neural activity using pERK imaging, light-sheet calcium imaging, and graph-theoretic analyses.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>Stress resilience assay in larval zebrafish</h3>
+            <p class="card-meta">Manuscript in preparation</p>
+            <p>
+              Standardized three-phase behavioral assay to classify resilient vs. vulnerable
+              trajectories based on locomotor rebound after acute osmotic stress.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Brain-wide pERK mapping of resilience networks</h3>
+            <p class="card-meta">Manuscript in preparation</p>
+            <p>
+              Voxel- and region-level pERK/tERK analyses combined with graph theory to identify
+              stress and resilience networks across the zebrafish brain.
+            </p>
+          </article>
+        </div>
+
+        <!-- Later you can generate this list from BibTeX if you want -->
+        <div class="pub-list">
+          <h3>Selected publications</h3>
+          <ul>
+            <li>
+              <span class="pub-title">Title of paper goes here</span>
+              <span class="pub-meta">Journal · Year</span>
+            </li>
+            <li>
+              <span class="pub-title">Another paper or preprint</span>
+              <span class="pub-meta">bioRxiv · Year</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- CODE -->
+    <section id="code" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Code & Tools</span>
+          <h2>Reproducible pipelines and analysis tools.</h2>
+          <p class="section-intro">
+            I build Python pipelines for behavioral quantification, whole-brain image registration,
+            functional connectivity, and graph-theoretic analysis.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>ERK-Analysis</h3>
+            <p class="card-meta"><a href="https://github.com/yourusername/ERK-Analysis">GitHub repo</a></p>
+            <p>
+              Modular analysis framework for pERK/tERK datasets: normalization, regional statistics,
+              functional connectivity, and graph metrics.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>PillProphet</h3>
+            <p class="card-meta"><a href="https://github.com/yourusername/PillProphet">GitHub repo</a></p>
+            <p>
+              Prototype ML pipeline to predict clinical trial outcomes from structured and unstructured
+              data scraped from clinicaltrials.gov.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label highlight">Side projects</span>
+          <h2>Experiments that didn’t need ethics approval (probably).</h2>
+        </div>
+
+        <div class="grid two">
+          <article class="card featured">
+            <h3>Energy drink tasting study</h3>
+            <p class="card-meta">Quantitative chaos</p>
+            <p>
+              Blind tasting, rating, and clustering of energy drinks based on flavor,
+              perceived effectiveness, and questionable subjective measures. Includes
+              full dataset, analysis notebooks, and plots.
+            </p>
+            <a class="card-link" href="#">View project →</a>
+          </article>
+
+          <article class="card">
+            <h3>Workshop materials</h3>
+            <p class="card-meta">Computational Neuroscience course</p>
+            <p>
+              Teaching notebooks on learning principles, neural network basics,
+              and spike waveform classification for medical and neuroscience students.
+            </p>
+            <a class="card-link" href="#">Course repo →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-last">
+      <div class="container">
+        <div class="section-heading">
+          <span class="section-label">Contact</span>
+          <h2>Let’s talk.</h2>
+          <p class="section-intro">
+            I’m open to opportunities in computational neuroscience, machine learning for biology,
+            and data-heavy R&amp;D roles.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <p><strong>Email</strong><br>
+              <a href="mailto:you@yourmail.com">you@yourmail.com</a></p>
+            <p><strong>Elsewhere</strong><br>
+              <a href="https://github.com/yourusername">GitHub</a> ·
+              <a href="#">Google Scholar</a> ·
+              <a href="#">LinkedIn</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> João Campagnolo. Built with HTML/CSS and hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script>
+    // tiny helper to keep footer year up to date
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
