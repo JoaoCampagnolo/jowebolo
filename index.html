@@ -13,7 +13,7 @@
       <nav class="nav">
         <a href="#research">Research</a>
         <a href="#code">Code</a>
-        <a href="#projects">Projects</a>
+        <a href="#misc">Misc</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -28,105 +28,144 @@
           <h1 class="hero-title">Stress, circuits & curious side projects.</h1>
           <p class="hero-subtitle">
             I’m a neuroscientist and ML enthusiast studying how brains cope with stress,
-            and occasionally running questionable experiments like an energy drink tasting study.
+            building analysis tools, and occasionally running unnecessary-but-fun experiments.
           </p>
           <div class="hero-actions">
             <a class="btn primary" href="CV.pdf">Download CV</a>
-            <a class="btn ghost" href="#projects">See projects</a>
+            <a class="btn ghost" href="#research">View academic work</a>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- RESEARCH -->
+    <!-- RESEARCH / ACADEMIC PROJECTS -->
     <section id="research" class="section">
       <div class="container">
         <div class="section-heading">
           <span class="section-label">Research & Publications</span>
-          <h2>Mapping stress resilience from behavior to brain-wide activity.</h2>
+          <h2>From stress resilience behavior to brain-wide circuits.</h2>
           <p class="section-intro">
-            I work with larval zebrafish to quantify stress resilience and relate it to whole-brain
-            neural activity using pERK imaging, light-sheet calcium imaging, and graph-theoretic analyses.
+            My research focuses on how individuals differ in their ability to recover after stress.
+            I combine larval zebrafish assays, whole-brain activity mapping, and graph-theoretic analysis
+            to link behavior to underlying neural networks.
           </p>
         </div>
 
+        <h3 class="section-subheading">Academic projects</h3>
         <div class="grid two">
           <article class="card">
-            <h3>Stress resilience assay in larval zebrafish</h3>
-            <p class="card-meta">Manuscript in preparation</p>
+            <h3>PhD – Neural correlates of stress resilience</h3>
+            <p class="card-meta">University of Copenhagen · Main author</p>
             <p>
-              Standardized three-phase behavioral assay to classify resilient vs. vulnerable
-              trajectories based on locomotor rebound after acute osmotic stress.
+              Standardized three-phase stress resilience assay in larval zebrafish, quantifying locomotor
+              rebound after acute osmotic stress and relating individual outcomes to resilience labels.
             </p>
           </article>
 
           <article class="card">
-            <h3>Brain-wide pERK mapping of resilience networks</h3>
-            <p class="card-meta">Manuscript in preparation</p>
+            <h3>Brain-wide pERK resilience networks</h3>
+            <p class="card-meta">University of Copenhagen · Main author</p>
             <p>
-              Voxel- and region-level pERK/tERK analyses combined with graph theory to identify
-              stress and resilience networks across the zebrafish brain.
+              Voxel- and region-level pERK/tERK analyses mapped onto the Z-Brain atlas, combined with
+              functional connectivity and graph metrics to identify stress vs. resilience subnetworks.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>EPFL – Unsupervised quantification of behavior</h3>
+            <p class="card-meta">EPFL · Master’s thesis</p>
+            <p>
+              Developed unsupervised pipelines to embed and cluster Drosophila behavior from pose-tracking
+              data, exploring structure in high-dimensional behavioral repertoires.
             </p>
           </article>
         </div>
 
-        <!-- Later you can generate this list from BibTeX if you want -->
         <div class="pub-list">
           <h3>Selected publications</h3>
           <ul>
             <li>
-              <span class="pub-title">Title of paper goes here</span>
-              <span class="pub-meta">Journal · Year</span>
+              <span class="pub-title">Title of first main-author paper</span>
+              <span class="pub-meta">Journal · Year · <a href="#">Link</a></span>
             </li>
             <li>
-              <span class="pub-title">Another paper or preprint</span>
-              <span class="pub-meta">bioRxiv · Year</span>
+              <span class="pub-title">Title of second main-author paper</span>
+              <span class="pub-meta">Journal / preprint server · Year · <a href="#">Link</a></span>
             </li>
+            <!-- Add more entries as needed -->
           </ul>
         </div>
       </div>
     </section>
 
-    <!-- CODE -->
+    <!-- CODE / PIPELINES / TEACHING -->
     <section id="code" class="section">
       <div class="container">
         <div class="section-heading">
           <span class="section-label">Code & Tools</span>
-          <h2>Reproducible pipelines and analysis tools.</h2>
+          <h2>Analysis pipelines, teaching material, and ML experiments.</h2>
           <p class="section-intro">
-            I build Python pipelines for behavioral quantification, whole-brain image registration,
-            functional connectivity, and graph-theoretic analysis.
+            I build Python tools for behavioral analysis, whole-brain imaging, and machine learning,
+            with an emphasis on reproducible workflows and clear documentation.
           </p>
         </div>
 
         <div class="grid two">
           <article class="card">
             <h3>ERK-Analysis</h3>
-            <p class="card-meta"><a href="https://github.com/yourusername/ERK-Analysis">GitHub repo</a></p>
+            <p class="card-meta">
+              <a href="https://github.com/JoaoCampagnolo/ERK-Analysis" target="_blank" rel="noopener">
+                GitHub repo
+              </a>
+            </p>
             <p>
-              Modular analysis framework for pERK/tERK datasets: normalization, regional statistics,
-              functional connectivity, and graph metrics.
+              Modular framework for pERK/tERK datasets: normalization (including batch correction),
+              regional statistics, functional connectivity, and graph-theoretic analysis with rich plotting.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Computational Neuroscience teaching materials</h3>
+            <p class="card-meta">
+              <a href="https://github.com/JoaoCampagnolo/CompNeuroXX24" target="_blank" rel="noopener">
+                GitHub repo
+              </a>
+            </p>
+            <p>
+              Workshop notebooks and exercises covering learning principles, neural network basics,
+              and spike waveform classification for medical and neuroscience students.
             </p>
           </article>
 
           <article class="card">
             <h3>PillProphet</h3>
-            <p class="card-meta"><a href="https://github.com/yourusername/PillProphet">GitHub repo</a></p>
+            <p class="card-meta">Clinical trial outcome prediction · Code currently private</p>
             <p>
-              Prototype ML pipeline to predict clinical trial outcomes from structured and unstructured
-              data scraped from clinicaltrials.gov.
+              Prototype ML pipeline that parses structured and unstructured clinical trial data
+              (e.g., inclusion criteria, outcomes) to predict the probability that a drug reaches
+              successful endpoints.
             </p>
           </article>
         </div>
+
+        <p class="section-note">
+          More code is available on my
+          <a href="https://github.com/JoaoCampagnolo" target="_blank" rel="noopener">GitHub profile</a>.
+          PillProphet is under active development; feel free to reach out if you’re interested.
+        </p>
       </div>
     </section>
 
-    <!-- PROJECTS -->
-    <section id="projects" class="section">
+    <!-- MISC / FUN STUFF -->
+    <section id="misc" class="section">
       <div class="container">
         <div class="section-heading">
-          <span class="section-label highlight">Side projects</span>
-          <h2>Experiments that didn’t need ethics approval (probably).</h2>
+          <span class="section-label highlight">Miscellany</span>
+          <h2>Side quests: data, drinks, and cinema.</h2>
+          <p class="section-intro">
+            Not everything needs to be a grant proposal. These are projects I run for fun,
+            usually with too many spreadsheets.
+          </p>
         </div>
 
         <div class="grid two">
@@ -134,21 +173,22 @@
             <h3>Energy drink tasting study</h3>
             <p class="card-meta">Quantitative chaos</p>
             <p>
-              Blind tasting, rating, and clustering of energy drinks based on flavor,
-              perceived effectiveness, and questionable subjective measures. Includes
-              full dataset, analysis notebooks, and plots.
+              Blind tasting, rating, and clustering of energy drinks based on flavor, perceived
+              effectiveness, and questionable subjective measures. Includes tasting protocol,
+              aggregated scores, and exploratory analyses.
             </p>
             <a class="card-link" href="#">View project →</a>
           </article>
 
           <article class="card">
-            <h3>Workshop materials</h3>
-            <p class="card-meta">Computational Neuroscience course</p>
+            <h3>Cinema & Letterboxd</h3>
+            <p class="card-meta">Film log & recommendations</p>
             <p>
-              Teaching notebooks on learning principles, neural network basics,
-              and spike waveform classification for medical and neuroscience students.
+              I keep a running log of what I watch, with ratings and short notes, and occasionally
+              overthink film structures more than my own analysis pipelines.
             </p>
-            <a class="card-link" href="#">Course repo →</a>
+            <!-- Replace # with your real Letterboxd URL -->
+            <a class="card-link" href="#" target="_blank" rel="noopener">Letterboxd profile →</a>
           </article>
         </div>
       </div>
@@ -161,7 +201,7 @@
           <span class="section-label">Contact</span>
           <h2>Let’s talk.</h2>
           <p class="section-intro">
-            I’m open to opportunities in computational neuroscience, machine learning for biology,
+            I’m open to opportunities in computational neuroscience, ML for biology/health,
             and data-heavy R&amp;D roles.
           </p>
         </div>
@@ -169,11 +209,12 @@
         <div class="contact-grid">
           <div>
             <p><strong>Email</strong><br>
-              <a href="mailto:you@yourmail.com">you@yourmail.com</a></p>
+              <a href="mailto:Jhc2309@gmail.com">Jhc2309@gmail.com</a></p>
             <p><strong>Elsewhere</strong><br>
-              <a href="https://github.com/yourusername">GitHub</a> ·
-              <a href="#">Google Scholar</a> ·
-              <a href="#">LinkedIn</a>
+              <a href="https://github.com/JoaoCampagnolo" target="_blank" rel="noopener">GitHub</a> ·
+              <!-- Replace # with your real URLs when ready -->
+              <a href="#" target="_blank" rel="noopener">Google Scholar</a> ·
+              <a href="#" target="_blank" rel="noopener">LinkedIn</a>
             </p>
           </div>
         </div>

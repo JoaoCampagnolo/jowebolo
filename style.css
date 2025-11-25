@@ -157,9 +157,6 @@ body {
 
 .section-heading h2 {
   margin: 0.5rem 0 0.5rem;
-}
-
-.section-heading h2 {
   font-size: 1.5rem;
 }
 
@@ -182,6 +179,15 @@ body {
 .section-label.highlight {
   border-color: var(--accent-orange);
   color: var(--accent-orange);
+}
+
+.section-subheading {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--text-muted);
 }
 
 /* Grid & cards */
@@ -260,6 +266,14 @@ body {
 }
 
 .pub-meta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* Small notes */
+
+.section-note {
+  margin-top: 1.75rem;
   font-size: 0.8rem;
   color: var(--text-muted);
 }
